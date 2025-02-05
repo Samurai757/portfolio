@@ -1,0 +1,233 @@
+.portfolio {
+	margin-bottom: 50px;
+	
+}
+.section-title {
+	margin-bottom: 30px;
+	@include mobile {
+		margin-bottom: 20px;
+	}
+	
+}
+.portfolio__card {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 30px;
+
+	@include tablet {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	@include mobile {
+		grid-template-columns: 1fr;
+	}
+}
+.card {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .portfolio__section-title {
+// 	margin-bottom: 30px;
+// }
+// .wrapper {
+// 	display: grid;
+// 	grid-template-columns: repeat(auto-fit, minmax(329px, 1fr));
+// 	gap: 30px;
+// 	margin-bottom: 50px;
+// }
+// .card {
+// 	max-width: 380px;
+// 	display: flex;
+// 	flex-direction: column;
+// 	gap: 15px;
+// }
+// .card__img {
+// 	min-height: 210px;
+// 	background-color: #f6f6f6;
+// 	position: relative;
+// 	display: flex;
+// 	justify-content: center;
+// 	align-items: center;
+// }
+// .card__laptop {
+// 	position: relative;
+// 	top: 23px;
+// 	left: 47px;
+// 	right: 47px;
+
+// 	@include tablet {
+// 		left: 34px;
+// 		right: 34px;
+// 	}
+// 	@include mobile {
+// 		left: 22px;
+// 		right: 22px;
+// 	}
+// }
+// .card__progect {
+// 	position: absolute;
+// 	display: flex;
+// 	justify-content: center;
+// 	align-items: center;
+// 	top: 32px;
+// 	left: 82px;
+// 	right: 82px;
+// 	z-index: 2;
+// 	background-size: cover;
+// }
+// 	@include tablet {
+// 		left: 69px;
+// 		right: 69px;
+// 	}
+// 	@include mobile {
+// 		left: 57px;
+// 		right: 57px;
+// 	}
+
+// .card__content {
+// 	display: flex;
+// 	flex-direction: column;
+// 	gap: 5px;
+// }
+// .card__title {
+// 	font-weight: 700;
+// 	font-size: 18px;
+// 	line-height: 1.3;
+// 	color: #000;
+// }
+// .card__title a {
+// 	color: #000;
+// }
+
+// .card__text {
+// 	font-weight: 400;
+// 	font-size: 14px;
+// 	line-height: 1.5;
+// 	color: #000;
+// }
+// .card__technologies {
+// 	font-weight: 400;
+// 	font-size: 12px;
+// 	line-height: 1.3;
+// 	color: #6b9db9;
+// }
+// @include mobile {
+// 	.card {
+//         max-width: 100%; /* Карточка на всю ширину */
+//     }
+//     .card__content {
+//         align-items: center; /* Центрируем контент горизонтально */
+//         text-align: center; /* центрируем текст*/
+//     }
+//     .card__laptop {
+//          left: 22px;
+//          right: 22px;
+//     }
+//     .card__progect {
+//          left: 57px;
+//          right: 57px;
+//     }
+// }

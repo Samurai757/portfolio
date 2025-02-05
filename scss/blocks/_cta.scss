@@ -1,0 +1,56 @@
+.cta {
+	margin-bottom: 80px;
+
+}
+.cta__container {
+    background: #f0f5f9;
+
+}
+.cta__content {
+	display: flex;
+	flex-direction: column;
+	row-gap: 25px;
+	justify-content: center;
+	align-items: center;
+	padding-block: 60px;
+
+	@include mobile {
+		row-gap: 20px;
+	}
+}
+.cta__title {
+	font-weight: 800;
+	font-size: 32px;
+	line-height: 1;
+	color: #000;
+
+	@include tablet {
+		font-size: 26px;
+	}
+	@include mobile {
+		font-size: 22px;
+		text-align: center;
+	}
+}
+.cta__text {
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 1;
+	color: #000;
+}
+a.cta-button {
+	background: #039be5;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px 20px;
+	border-radius: 80px;	
+}
+.cta-button  {
+	font-weight: 700;
+	font-size: 16px;
+	color: #fff;
+}
+.cta__img {
+	margin-right: 10px;
+}
