@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=360, initial-scale=1, shrink-to-fit=no"> -->
+
+    <title>Портфолио Сергей Хмель верстальщик HTML</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./js/fancybox/fancybox.css">
+    <link rel="stylesheet" href="./js/tiny-slider/tiny-slider.css">
+
+    <link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png">
+</head>
+
+<body class="sticky-footer">
+
+    <header class="header">
+        <div class="container">
+            <div class="header__row">
+                <a href="#!" class="header__logo logo">
+                    <h1 class="header__title">Сергей Хмель</h1>
+                    <span class="header__text">HTML верстальщик</span>
+                </a>
+
+                <ul class="messenger">
+                    <li><a class="links" href="mailto:belarus_06@mail.ru">
+                            <img src="./img/social/email.svg" alt="email"></a>
+                    </li>
+                    <li><a class="links" href="#!"><img src="./img/social/github.svg" alt="github"></a></li>
+                    <li><a class="links" href="https://t.me/Samurai_757" target="_blank">
+                            <img src="./img/social/telegram.svg" alt="telegram"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="profile">
+            <div class="container">
+                <div class="profile__about-me">
+                    <div class="profile__info">
+                        <h2 class="section-title">Обо мне</h2>
+                        <p class="profile__info-text">Я профессиональный HTML верстальщик сайтов. Верстаю с учетом
+                            последних
+                            трендов и технологий.</p>
+                        <p class="profile__info-text">Оперативная верстка. Работаю с соблюдением сроков и ТЗ.</p>
+                        <p class="profile__info-text">Если вы ищите специалиста по верстке сайтов в команду для работы
+                            над
+                            проектом, напишите мне.</p>
+                    </div>
+                    <div class="profile__summary">
+                        <h2 class="section-title">Навыки</h2>
+                        <div class="profile__skills">
+                            <ul class="profile__badges">
+                                <li class="profile__badge--html">HTML</li>
+                                <li class="profile__badge--css">CSS</li>
+                                <li class="profile__badge--scss">SCSS</li>
+                                <li class="profile__badge--wp">WordPress</li>
+                            </ul>
+                        </div>
+                        <ul class="profile__list">
+                            <li>Pixel perfect, полное соответствие макету</li>
+                            <li>Мобильная верстка, оптимизация под retina экраны</li>
+                            <li>BEM naming</li>
+                            <li>Постановка на WordPress</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio">
+            <div class="container">
+                <h2 class="section-title">Портфолио</h2>
+                <ul class="portfolio__card">
+                    <li class="card">
+                        <div class="card__img">
+                            <img src="./img/icon-progect/epic.jpg" srcset="./img/icon-progect/epic@2x.jpg"
+                                alt="ЭпикТрэвел">
+                        </div>
+                        <h3 class="card__title"><a href="#!" data-fancybox="gallery"
+                                data-src="#modalEpic">ЭпикТрэвел</a></h3>
+                        <p class="card__desc">Верстка сайта визитки. 4 страницы, форма обратной связи, мобильная
+                            адаптация, retina ready</p>
+                        <p class="card__tags">HTML, CSS, PHP</p>
+                    </li>
+                    <li class="card">
+                        <div class="card__img">
+                            <img src="./img/icon-progect/coworks.jpg" srcset="./img/icon-progect/coworks@2x.jpg"
+                                alt="Сайт коворкинга">
+                        </div>
+                        <h3 class="card__title"><a href="#!" data-fancybox="gallery" data-src="#modalCoworks">Сайт
+                                коворкинга</a></h3>
+                        <p class="card__desc">Верстка лендинга для сайта коворкинга</p>
+                        <p class="card__tags">HTML, SCSS, JS</p>
+                    </li>
+                    <li class="card">
+                        <div class="card__img">
+                            <img src="./img/icon-progect/beauty.jpg" srcset="./img/icon-progect/beauty@2x.jpg"
+                                alt="Салон красоты">
+                        </div>
+                        <h3 class="card__title"><a href="#!">Салон красоты</a></h3>
+                        <p class="card__desc">Создание сайта салона красоты</p>
+                        <p class="card__tags">HTML, SCSS, JS, Gulp</p>
+                    </li>
+                    <li class="card">
+                        <div class="card__img">
+                            <img src="./img/icon-progect/quiz.jpg" srcset="./img/icon-progect/quiz@2x.jpg" alt="Квиз">
+                        </div>
+                        <h3 class="card__title"><a href="#!">Квиз</a></h3>
+                        <p class="card__desc">Онлайн опросник в формате квиза. Верстка и JS</p>
+                        <p class="card__tags">HTML, CSS, JS</p>
+                    </li>
+                    <li class="card">
+                        <div class="card__img">
+                            <img src="./img/icon-progect/crm.jpg" srcset="./img/icon-progect/crm@2x.jpg"
+                                alt="CRM система">
+                        </div>
+                        <h3 class="card__title"><a href="#!">CRM система</a></h3>
+                        <p class="card__desc">Frontend для CRM системы</p>
+                        <p class="card__tags">JS</p>
+                    </li>
+                    <li class="card">
+                        <div class="card__img">
+                            <img src="./img/icon-progect/spa.jpg" srcset="./img/icon-progect/spa@2x.jpg"
+                                alt="Каталог квартир">
+                        </div>
+                        <h3 class="card__title"><a href="#!">Каталог квартир</a></h3>
+                        <p class="card__desc">Frontend для каталога недвижимости</p>
+                        <p class="card__tags">JS, webpack</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="cta">
+            <div class="container cta__container">
+                <div class="cta__content">
+                    <h2 class="cta__title">Нужна верстка или есть предложения? </h2>
+                    <p class="cta__text">Напишите мне, обсудим ваш проект</p>
+                    <div class="cta-button">
+                        <a href="https://t.me/Samurai_757" target="_blank">
+                            <img class="cta__img" src="./img/icons/telegram.svg" alt="telegram">Telegram</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <p class="footer__copyright">© 2021 - 2024 Юрий Ключевский</p>
+                <p class="footer__text">Сайт сделан в рамках обучения по верстке на курсах от
+                    <a href="https://webcademy.ru/" target="_blank">WebCademy.ru</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <section class="modal" id="modalEpic">
+        <div class="modal__img">
+            <img src="./img/icon-progect/epic-lg.jpg" srcset="./img/icon-progect/epic-lg@2x.jpg" alt="epic-lg">
+        </div>
+        <div class="modal__content">
+            <h3 class="modal__title">ЭпикТрэвел</h3>
+            <div class="modal__text">
+                <p>Верстка сайта визитки. 4 страницы, форма обратной связи, мобильная адаптация, retina ready</p>
+                <p>Страницы</p>
+                <ul>
+                    <li><a href="https://samurai757.github.io/epic-travel/" target="_blank">Главная</a></li>
+                    <li><a href="https://samurai757.github.io/epic-travel/tours.html" target="_blank">Туры и
+                            направления</a></li>
+                    <li><a href="https://samurai757.github.io/epic-travel/about.html" target="_blank">О компании</a>
+                    </li>
+                    <li><a href="https://samurai757.github.io/epic-travel/contacts.html" target="_blank">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+            <p class="modal__tags">HTML, SCSS, JS, PHP</p>
+            <div class="modal__links">
+                <a href="#!" target="_blank" class="btn-link">
+                    <img src="./img/tags/link.svg" alt="Смотреть демо">Смотреть демо</a>
+                <a href="#!" target="_blank" class="btn-link">
+                    <img src="./img/tags/site.svg" alt="Сайтклиента">Сайтклиента</a>
+                <a href="https://github.com/Samurai757/epic-travel" target="_blank" class="btn-link">
+                    <img src="./img/tags/github.svg" alt="GitHub проекта">GitHub проекта</a>
+            </div>
+        </div>
+    </section>
+    <section class="modal" id="modalCoworks">
+        <div class="modal__img">
+            <img src="./img/icon-progect/coworks-lg.jpg" srcset="./img/icon-progect/coworks-lg@2x.jpg" alt="epic-lg">
+        </div>
+        <div class="modal__content">
+            <h3 class="modal__title">Сайт коворкинга</h3>
+            <div class="modal__text">
+                <p>Верстка лендинга. Одностраничный сайт с информацией о коворкинге. Форма обратной связи, модальные
+                    окна, карта,
+                    аккордеон, адаптация под мобильные устройства, мобильная навигация.</p>
+            </div>
+            <p class="modal__tags">HTML, SCSS, JS</p>
+            <div class="modal__links">
+                <a href="#!" target="_blank" class="btn-link"><img src="./img/tags/link.svg"
+                        alt="Смотреть демо">Смотреть
+                    демо</a>
+                <a href="https://github.com/Samurai757/Coworking" target="_blank" class="btn-link"><img
+                        src="./img/tags/github.svg" alt="GitHub проекта">GitHub
+                    проекта</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Vendors -->
+    <script src="./js/fancybox/fancybox.umd.js"></script>
+
+    <!-- Скрипты -->
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>
